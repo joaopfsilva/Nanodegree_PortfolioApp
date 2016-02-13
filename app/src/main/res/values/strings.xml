@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">PortfolioApp</string>
     <string name="action_settings">Settings</string>
+    <string name="LIBRARY_APP">LIBRARY APP</string>
+    <string name="BUILD_IT_BIGGER">BUILD IT BIGGER</string>
+    <string name="BACON_READER">BACON READER</string>
+    <string name="SCORE_APP">SCORE APP</string>
+    <string name="SPOTIFY_STREAMER">SPOTIFY STREAMER</string>
+    <string name="CAPSTONEMYOWNAPP">CAPSTONE: MY OWN APP</string>
+    <string name="My_Nanodegree_Apps">My Nanodegree Apps</string>
+
 </resources>
