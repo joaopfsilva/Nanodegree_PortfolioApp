@@ -40,14 +40,13 @@
         android:layout_height="wrap_content"
         android:text="SPOTIFY STREAMER"
         android:id="@+id/buttonSpotify"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
-        android:layout_alignRight="@+id/buttonCapstone"
-        android:layout_alignEnd="@+id/buttonCapstone"
         android:background="#F08C35"
-        android:onClick="ToastSpotify" />
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
 
     <Button
         android:layout_width="wrap_content"
@@ -58,9 +57,9 @@
         android:layout_marginTop="17dp"
         android:layout_alignLeft="@+id/buttonSpotify"
         android:layout_alignStart="@+id/buttonSpotify"
-        android:layout_alignRight="@+id/buttonCapstone"
-        android:layout_alignEnd="@+id/buttonCapstone"
-        android:background="#F08C35" />
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/buttonSpotify"
+        android:layout_alignEnd="@+id/buttonSpotify" />
 
     <Button
         android:layout_width="wrap_content"
@@ -71,9 +70,9 @@
         android:layout_marginTop="17dp"
         android:layout_alignLeft="@+id/buttonScore"
         android:layout_alignStart="@+id/buttonScore"
-        android:layout_alignRight="@+id/buttonCapstone"
-        android:layout_alignEnd="@+id/buttonCapstone"
-        android:background="#F08C35" />
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/buttonScore"
+        android:layout_alignEnd="@+id/buttonScore" />
 
     <Button
         android:layout_width="wrap_content"
@@ -84,9 +83,9 @@
         android:layout_below="@+id/buttonLibrary"
         android:layout_alignLeft="@+id/buttonLibrary"
         android:layout_alignStart="@+id/buttonLibrary"
-        android:layout_alignRight="@+id/buttonCapstone"
-        android:layout_alignEnd="@+id/buttonCapstone"
-        android:background="#F08C35" />
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/buttonLibrary"
+        android:layout_alignEnd="@+id/buttonLibrary" />
 
     <Button
         android:layout_width="wrap_content"
@@ -97,9 +96,9 @@
         android:layout_below="@+id/buttonBigger"
         android:layout_alignLeft="@+id/buttonBigger"
         android:layout_alignStart="@+id/buttonBigger"
-        android:layout_alignRight="@+id/buttonCapstone"
-        android:layout_alignEnd="@+id/buttonCapstone"
-        android:background="#F08C35"  />
+        android:background="#F08C35"
+        android:layout_alignRight="@+id/buttonBigger"
+        android:layout_alignEnd="@+id/buttonBigger" />
 
     <Button
         android:layout_width="wrap_content"
@@ -110,7 +109,9 @@
         android:layout_below="@+id/buttonBacon"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignStart="@+id/textView"
-        android:background="#C62828"/>
+        android:background="#C62828"
+        android:layout_alignRight="@+id/buttonBacon"
+        android:layout_alignEnd="@+id/buttonBacon" />
         </RelativeLayout>
     </ScrollView>
 </RelativeLayout>

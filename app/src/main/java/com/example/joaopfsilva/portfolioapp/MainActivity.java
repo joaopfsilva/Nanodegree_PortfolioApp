@@ -102,19 +102,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         return true;
     }
 
-    public void ToastSpotify(View view) {
-        // Do something in response to button click
-        Context context = getApplicationContext();
-        String text = "This button will launch my Spotify Streamer!";
-        int duration = Toast.LENGTH_SHORT;
-        //Toast.makeText(context, text, duration).show();
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.setGravity(Gravity.BOTTOM,0, 0);
-        toast.show();
-    }
-
-    @Override
+      @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
